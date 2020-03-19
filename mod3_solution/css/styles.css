@@ -1,0 +1,224 @@
+/** FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #e07a6c;
+  font-family: 'Raleway', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #e6d112;
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 0px;
+ }
+
+ #intro {
+   padding: 0px;
+ }
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Josefin Slab', serif;
+  color: #2b031c;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  margin-top: 0;
+    line-height: .2;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav {
+  width: 100%;
+  border: 1px;
+  border-color: cornsilk;
+  padding: 0;
+  ;
+  
+  
+ }
+
+
+#nav-list {
+  margin: 0 0 0 0;
+  background-color: #e07a6c;
+  width: 100%;
+  padding: 0;
+}
+#nav-list a {
+  color: #ffffff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/* END HEADER */
+
+/* FOOD */
+
+h2 { 
+  
+  color: white;
+  font-weight: bold; 
+  font-family: 'Josefin Slab', serif;
+}
+
+h3 { 
+  
+  color: #2b031c;
+  font-weight: bold; 
+  font-family: 'Josefin Slab', serif;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+#chicken {
+  background-color: #e6d112;
+  width: 100%;
+}
+
+.food {
+  color: #2b031c
+
+}
+
+a {
+  color: white;
+  }
+  
+
+#beef {
+    background-color:  #e6d112;
+    width: 100%;
+  }
+  #sushi {
+    background-color: #e6d112;
+    width: 100%;
+  }
+
+
+#menu-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover,  {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+
+.menu-item-tile .menu-item-price span {
+  font-size: .6em;
+}
+
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+ 
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+    /* End Header */
+
+  /* Home Page */
+  
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}

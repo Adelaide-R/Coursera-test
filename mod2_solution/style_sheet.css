@@ -5,7 +5,7 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  font-family: Helvetica;
+  font-family: 'Raleway', sans-serif;;
 }
 
 .column {
@@ -25,7 +25,7 @@ h1 {
   padding:5px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
+  font-family: 'Raleway', sans-serif;;
   color: rgb(48, 3, 3);
   box-sizing: border-box;
   text-align: justify;
@@ -41,7 +41,7 @@ h1 {
   border: solid black 1px;
   box-sizing: border-box;
   text-align: center;
-  font-family: Helvetica;
+  font-family: 'Raleway', sans-serif;;
   font-size: 15px;
   }
 
